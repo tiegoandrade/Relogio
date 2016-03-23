@@ -6,6 +6,7 @@
 
 .classpath
 .metadata
+.recommenders
 .project
 .settings
 bin
@@ -19,4 +20,3 @@ tmp/
 *~.nib
 local.properties
 .loadpath
-.recommenders

@@ -13,10 +13,10 @@ public class MetodoMain {
 
 	public static void main(String[] args) {
 
-		// Criação de um objeto que representará um relógio
-		Relogio_Apresentacao r1 = new Relogio_Apresentacao();
+		/* Instanciamento de um objeto que representará o relógio. */
+		RelogioApresentacao r1 = new RelogioApresentacao();
 
-		// Atribuição das horas, minutos e segundos de um relógio.
+		/* Atribuição das horas, minutos e segundos de um relógio. */
 		r1.acertarRelogio(3, 30, 50);
 
 		/*

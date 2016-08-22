@@ -7,7 +7,7 @@ package tiegoandrade.github.relogio;
  * @author Tiego
  *
  */
-public class Relogio_Apresentacao {
+public class RelogioApresentacao {
 
 	/** Representa o ponteiro das horas. */
 	Ponteiro ponteiroHora = new Ponteiro();
@@ -18,7 +18,13 @@ public class Relogio_Apresentacao {
 	/** Representa o ponteiro dos segundos. */
 	Ponteiro ponteiroSegundo = new Ponteiro();
 
-	// Método para acertar o horário do relógio
+	/**
+	 * Método para atribuir os horários ao relógico.
+	 *  
+	 * @param hora Representa as horas.
+	 * @param minuto Representa os minutos.
+	 * @param segundo Representa os segundos.
+	 */
 	public void acertarRelogio(int hora, int minuto, int segundo) {
 
 		/*
